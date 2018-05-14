@@ -1,0 +1,70 @@
+.about-page {
+  height: 800px;
+    /* height: 637px; */
+    margin: 0;
+  }
+  
+.ab-bg {
+    position: relative;
+    background: white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .ab-text-container {
+    position: relative;
+    top: 6%;
+    margin: auto;
+    display: block;
+    height: 80%;
+    width: 97%;
+    border: solid 1px white;
+    background: white;
+    text-align: left;
+    font-family: Garamond;
+  }
+  
+  .ab-text {
+    position: relative;
+    color: black;
+    top: 5%;
+    padding: 10px;
+    margin-left: 2.5%;
+    font-size: 4rem;
+  }
+
+  .pic {
+    margin-top: 5%;
+    height: 350px;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    margin-left: 2%;
+    
+  }
+
+  
+  .highlight {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    padding: 2px;
+    
+  }
+
+  .ab-text2 {
+    display: flex;
+    margin-top: 5%;
+    color: black;
+    padding: 3%;
+    font-size: 135%;
+    
+  }
+  
+  .line {
+    color: red;
+  }
+ 
+

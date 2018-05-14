@@ -1,0 +1,34 @@
+.navbox {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white; 
+}
+
+.nav {
+    margin-right: 1rem;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: .5;
+    text-shadow: 2px 2px gray;
+}
+.nav-item {
+      padding: 0.25rem 0;
+      margin: 0 1rem;
+      font-size: 1.25rem;
+      font-weight: 400;
+      border-bottom: 2px solid transparent;
+
+     
+    }
+.nav-item:hover {
+      cursor: pointer;
+      border-bottom: 1px solid white;
+      box-shadow: 0px .5px gray;
+    }

@@ -1,0 +1,50 @@
+.home-page {
+    height:800px;
+    /* height: 637px; */
+    margin: 0;
+  }
+
+.bg {
+    position: relative;
+    background-image: url(https://media.giphy.com/media/hL8a3mIQK8Ehy/giphy.gif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  
+  .text-container {
+    position: relative;
+    top: 40%;
+    margin: auto;
+    display: block;
+    height: 200px;
+    width:500px;
+    border: solid 1px white;
+    background: none;
+    text-align: center;
+    font-family: Courier New;
+  }
+  
+  .text {
+    position: relative;
+    color: white;
+    top: 5%;
+  }
+  
+  .text2 {
+    margin-top: 8%;
+  }
+  
+  .quote {
+    position: relative;
+    font-family: Courier New;
+    color: white;
+    text-align: center;
+    top:40%;
+    padding: 5%;
+  }
+
+

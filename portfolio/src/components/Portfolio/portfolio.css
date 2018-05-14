@@ -1,0 +1,48 @@
+.portfolio-page {
+  height: 800px;
+    /* height: 637px; */
+    margin: 0;
+  }
+  
+.p-bg {
+    position: relative;
+    background: white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  
+  .p-text-container {
+    position: relative;
+    top: 10%;
+    margin: auto;
+    display: block;
+    height: 80%;
+    width:100%;
+    /* border: solid 1px black; */
+    background: none;
+    text-align: center;
+    font-family: Courier New;
+  }
+  
+  .p-text {
+    position: relative;
+    color: black;
+    
+  }
+  
+  .p-text2 {
+    position: absolute;
+    display: block;
+    margin-top: 3%;
+    margin-left: 10%;
+    align-content: center;
+    color: black;
+    /* border: 1px solid black; */
+    width: 1000px;
+  }
+  
+  

@@ -1,0 +1,61 @@
+.contact-page {
+    height: 800px;
+    /* height: 637px; */
+    margin: 0;
+  }
+  
+.c-bg {
+    position: relative;
+    background-image: url(https://media.giphy.com/media/3ohhwofjgLt7WtjiPC/giphy.gif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  
+  .c-text-container {
+    position: relative;
+    top: 10%;
+    margin: auto;
+    display: block;
+    height: 450px;
+    width:500px;
+    border: solid 1px white;
+    background: none;
+    text-align: center;
+    font-family: Courier New;
+    background: rgba(191, 188, 188, 0.289);
+    padding: 2%;
+  }
+  
+  .c-text {
+    position: relative;
+    color: white;
+    top: 2%;
+  }
+  
+  .c-text2 {
+    margin-top: 1%;
+    color: white;
+  }
+
+  .Message {
+    margin-top: 1%;
+    font-size: 75%;
+  }
+  
+  .label {
+    text-align: left;
+  }
+  .icons {
+    margin-top: 10%;
+   
+  }
+
+  .item {
+    padding: 5%;
+    margin-left:3%;
+    
+  }
