@@ -17,7 +17,7 @@
   
   .p-text-container {
     position: relative;
-    top: 5%;
+    top: 8%;
     margin: auto;
     display: block;
     height: 60%;
@@ -39,7 +39,7 @@
   .p-text2 {
     position: absolute;
     display: block;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 10%;
     align-content: center;
     color: black;
@@ -67,3 +67,7 @@
   
 }
 
+.cards {
+  margin-top: 3%;
+  
+}
