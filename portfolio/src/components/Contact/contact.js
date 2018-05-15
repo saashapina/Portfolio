@@ -1,6 +1,6 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input,  } from 'reactstrap';
 import './contact.css';
 import Nav from '../Nav/nav.js'
 
@@ -39,7 +39,9 @@ class Contact extends React.Component {
                         <SocialIcon className="item" url="https://twitter.com/saashapina" color="white" />
                         <SocialIcon className="item" url="https://linkedin.com/in/saashapina" color="white" />
                         <SocialIcon className="item" url="https://codepen.io/saashapina/" color="white" />
+                
                 </div>
+                <div className="footer"> Copyright © 2018 <a href="https://github.com/saashapina" target="_blank" rel="noopener noreferrer" >SaaSha Pina</a> ❤️</div>
               </div>
               
           </div>    

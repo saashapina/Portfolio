@@ -14,7 +14,6 @@
     
   }
   
-  
   .text-container {
     position: relative;
     top: 40%;
@@ -26,16 +25,19 @@
     background: none;
     text-align: center;
     font-family: Courier New;
+  
   }
   
   .text {
     position: relative;
-    color: white;
+    /* color: white; */
     top: 5%;
+    
   }
   
   .text2 {
     margin-top: 8%;
+  
   }
   
   .quote {

@@ -21,7 +21,7 @@
     display: block;
     height: 80%;
     width: 97%;
-    border: solid 1px white;
+    /* border: solid 1px white; */
     background: white;
     text-align: left;
     font-family: Garamond;
@@ -47,12 +47,9 @@
   }
 
   
-  .highlight {
-    background-color: rgb(0, 0, 0, 0.5);
-    color: white;
-    padding: 2px;
-    
-  }
+  /* .highlight {
+    font-weight: bold;
+  } */
 
   .ab-text2 {
     display: flex;
@@ -64,7 +61,7 @@
   }
   
   .line {
-    color: red;
+    font-weight: bold;
   }
  
 

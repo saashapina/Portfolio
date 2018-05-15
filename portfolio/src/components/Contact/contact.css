@@ -59,3 +59,12 @@
     margin-left:3%;
     
   }
+
+  .footer {
+    color: black;
+    margin-top: 28%;
+    text-align: center;
+    
+    width: 100%;
+    background: rgb(255, 255, 255, .289);
+  }

@@ -51,8 +51,8 @@
 
 .datas {
   position: absolute;
- 
-  margin-top: 3%;
+  text-shadow: .3px .3px black;
+  margin-top: 8%;
   color: white;
   
 }
