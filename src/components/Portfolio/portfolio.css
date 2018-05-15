@@ -29,14 +29,14 @@
     color: black;
   };
   
-  .p-text {
+  /* .p-text {
     position: relative;
     color: blue;
     margin-bottom: 5%;
     padding: 5%;
     background-color: blueviolet
     
-  }
+  } */
   
   .p-text2 {
     position: absolute;
