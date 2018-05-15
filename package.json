@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://saashapina.github.io/ReactPortfolio",
+  "homepage": "https://saashapina.github.io/MyReactPortfolio",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "carousel": "^0.0.3",
