@@ -1,6 +1,6 @@
 .contact-page {
-    /* height: 800px; */
-    height: 637px;
+    height: 800px;
+    /* height: 637px; */
     margin: 0;
   }
   
@@ -62,7 +62,7 @@
 
   .footer {
     color: black;
-    margin-top: 28%;
+    
     text-align: center;
     
     width: 100%;
