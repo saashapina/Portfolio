@@ -54,27 +54,9 @@
 
   .Card:hover {
       background-color: lightgray;
-      animation: hop 1s infinite;
   }
 
-  @keyframes hop {
-    0% {
-      margin-top: 2%;
-    }
-    25% {
-      margin-top: -2%;
-    }
-    50% {
-      margin-top: 2%;
-    }
-    75% {
-      margin-top: -2%;
-    }
-    100% {
-      margin-top: 2%;
-    }
-  }
-
+ 
   
 .text {
   color: black;

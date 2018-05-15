@@ -21,7 +21,7 @@ class Portfolio extends React.Component {
                             <img className="image" width="100%" src="https://image.ibb.co/dZ6rkd/portfolio.png" alt="Portfolio Card Image"/>
                             <CardText className="text">Created my first React Portfolio, made entirely with ReactJS and reactstrap. Completely Responsive, and easily navigated.</CardText>
                           </CardBody>
-                          <Button className="Button">Check It Out!</Button>
+                          <Button className="Button1">Check It Out!</Button>
                       </Card>
                     </Col>
                     <Col sm="4">
@@ -31,7 +31,7 @@ class Portfolio extends React.Component {
                           <img className="image" width="100%" src="https://image.ibb.co/kZT45d/portfolio2.png" alt="Mario Card Image"/>
                           <CardText className="text"> Created a Pure CSS animated Mario on a Nintendo Switch. Almost 700 lines of Pure CSS.</CardText>
                         </CardBody>
-                        <Button className="Button">Check It Out! </Button>
+                        <Button className="Button2">Check It Out! </Button>
                       </Card>
                     </Col>
                     <Col sm="4">
@@ -41,7 +41,7 @@ class Portfolio extends React.Component {
                           <img className="image" width="100%" src={ Starwars } alt="Responsive Cards"/>
                           <CardText className="text"> Created Responsive Reactstrap Cards for Starwars characters taken from SWAPI The Star Wars API</CardText>
                         </CardBody>
-                        <Button className= "Button"> Check It Out!</Button>
+                        <Button className="Button3"> Check It Out!</Button>
                       </Card>
                     </Col>
                   </Row>
