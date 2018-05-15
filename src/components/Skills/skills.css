@@ -17,7 +17,7 @@
   
   .s-text-container {
     position: relative;
-    top: 12%;
+    top: 10%;
     margin: auto;
     display: block;
     height: 80%;
@@ -31,7 +31,7 @@
   .s-text {
     position: relative;
     color: white;
-    top: 3%;
+    top: 2%;
   }
   
   .s-text2 {

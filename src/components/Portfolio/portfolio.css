@@ -17,16 +17,17 @@
   
   .p-text-container {
     position: relative;
-    top: 10%;
+    top: 5%;
     margin: auto;
     display: block;
-    height: 80%;
-    width: 90%;
+    height: 60%;
+    width: 80%;
     /* border: solid 1px black; */
     background: none;
     text-align: center;
     font-family: Courier New;
-  }
+    color: black
+  };
   
   .p-text {
     position: relative;
@@ -50,6 +51,7 @@
     height: 100%;
     font-family: Garamond;
     font-size: 1.25rem;
+    color: black;
   }
 
   .Card:hover {
