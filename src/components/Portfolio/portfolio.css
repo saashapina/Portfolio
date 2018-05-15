@@ -17,7 +17,7 @@
   
   .p-text-container {
     position: relative;
-    top: 10%;
+    top: 20%;
     margin: auto;
     display: block;
     height: 60%;
@@ -26,14 +26,15 @@
     background: none;
     text-align: center;
     font-family: Courier New;
-    color: black
+    color: blueviolet;
   };
   
   .p-text {
     position: relative;
-    color: black;
+    color: blue;
     margin-bottom: 5%;
     padding: 5%;
+    background-color: blueviolet
     
   }
   
