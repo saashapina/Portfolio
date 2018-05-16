@@ -68,3 +68,41 @@
     width: 100%;
     background: rgb(255, 255, 255, .289);
   }
+
+  @media (min-width: 400px) and (max-width: 600px ) {
+    .c-text-container {
+      position: relative;
+      top: 10%;
+      margin: auto;
+      display: block;
+      height: 450px;
+      width:300px;
+      border: solid 1px transparent;
+      background: none;
+      text-align: center;
+      font-family: Courier New;
+      background: none;
+      padding: 2%;
+    }
+}
+    
+  @media (min-width: 0px) and (max-width: 400px ) {
+    .c-text-container {
+      position: relative;
+      top: 10%;
+      margin: auto;
+      display: block;
+      height: 300px;
+      width:250px;
+      border: solid 1px transparent;
+      background: none;
+      text-align: center;
+      font-family: Courier New;
+      background: none;
+      padding: 1%;
+    }
+    .Message {
+      margin-top: 3%;
+    }
+    
+}

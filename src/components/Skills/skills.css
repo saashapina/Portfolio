@@ -66,3 +66,9 @@
   background: rgb(255, 236, 236, .5);
   color: black;
 }
+
+@media (min-width: 0px) and (max-width: 725px ) {
+  .s-text-container {
+    display: none;
+  }
+}

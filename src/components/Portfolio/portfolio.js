@@ -20,34 +20,34 @@ class Portfolio extends React.Component {
                 <h1 className="p-text">Portfolio</h1>
                 <div className="cards">
                   <Row> 
-                    <Col sm="4">
+                    <Col sm="4" className="mycard1">
                       <Card className="Card Card1" >
                       <a href="https://saashacodes.com" style={{textDecoration:"none"}}> 
                         <CardHeader tag="h3" style={colorblack}> My React Portfolio</CardHeader>
                           <CardBody>
                             <img className="image" width="100%" src="https://image.ibb.co/dZ6rkd/portfolio.png" alt="Portfolio Card Image"/>
-                            <CardText className="text">Created my first React Portfolio, made entirely with ReactJS and reactstrap. Completely Responsive, and easily navigated.</CardText>
+                            <CardText className="p-text">Created my first React Portfolio, made entirely with ReactJS and reactstrap. Completely Responsive, and easily navigated.</CardText>
                           </CardBody>
                           </a>  
                       </Card>
                     </Col>
-                    <Col sm="4">
+                    <Col sm="4" className="mycard2">
                       <Card className="Card Card2"> 
                       <a href="https://codepen.io/saashapina/full/wjWVvb/" style={{textDecoration:"none"}}>
                         <CardHeader tag="h3" style={colorblack}> Pure CSS Image </CardHeader>
                         <CardBody>
                           <img className="image" width="100%" src="https://image.ibb.co/kZT45d/portfolio2.png" alt="Mario Card Image"/>
-                          <CardText className="text"> Created a Pure CSS animated Mario on a Nintendo Switch. Almost 700 lines of Pure CSS.</CardText>
+                          <CardText className="p-text"> Created a Pure CSS animated Mario on a Nintendo Switch. Almost 700 lines of Pure CSS.</CardText>
                         </CardBody>
                        </a>
                       </Card>
                     </Col>
-                    <Col sm="4">
+                    <Col sm="4" className="mycard3">
                       <Card className="Card Card3">
                         <CardHeader tag="h3"> Responsive Reactstrap Cards </CardHeader>
                         <CardBody>
                           <img className="image" width="100%" src={ Starwars } alt="Responsive Cards"/>
-                          <CardText className="text"> Created Responsive Reactstrap Cards for Starwars characters taken from SWAPI The Star Wars API</CardText>
+                          <CardText className="p-text"> Created Responsive Reactstrap Cards for Starwars characters taken from SWAPI The Star Wars API</CardText>
                         </CardBody>
                        
                       </Card>

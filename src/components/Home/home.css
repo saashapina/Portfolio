@@ -51,3 +51,63 @@
   }
 
 
+  @media (min-width: 400px) and (max-width: 600px ) {
+    .text-container {
+      position: relative;
+      top: 30%;
+      margin: auto;
+      display: block;
+      height: 200px;
+      width:300px;
+      border: solid 1px transparent;
+      background: none;
+      text-align: center;
+      font-family: Courier New;
+    
+    }
+
+    .text {
+      padding: 5%;
+      
+    }
+    
+    .text2 {
+      font-size: 1rem;
+
+    }
+
+    .quote {
+      display: none;
+    }
+}
+
+
+  @media (min-width: 0px) and (max-width: 400px ) {
+    .text-container {
+      position: relative;
+      top: 30%;
+      margin: auto;
+      display: block;
+      height: 200px;
+      width:300px;
+      border: solid 1px transparent;
+      background: none;
+      text-align: center;
+      font-family: Courier New;
+    
+    }
+
+    .text {
+      padding: 5%;
+      
+    }
+    
+    .text2 {
+      font-size: 1rem;
+
+    }
+
+    .quote {
+      display: none;
+    }
+}

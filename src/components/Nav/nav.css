@@ -32,3 +32,18 @@
       border-bottom: 1px solid white;
       box-shadow: 0px .5px gray;
     }
+
+
+@media (min-width: 400px) and (max-width: 600px ) {
+    .navbox {
+        margin-top: 2%;
+    }
+}
+    
+
+@media (min-width: 0px) and (max-width: 400px ) {
+    .navbox {
+        display: none;
+    }
+
+}
