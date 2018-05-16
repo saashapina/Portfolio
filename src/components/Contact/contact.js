@@ -2,7 +2,10 @@ import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 import { Button, Form, FormGroup, Label, Input,  } from 'reactstrap';
 import './contact.css';
-import Nav from '../Nav/nav.js'
+import Nav from '../Nav/nav.js';
+
+
+
 
 class Contact extends React.Component {
 
@@ -12,6 +15,7 @@ class Contact extends React.Component {
         <body className="contact-page">
           <div className="c-bg"> 
           <Nav/>
+         
               <div className="c-text-container">
                 <h1 className="c-text">Contact Me</h1>
                 <h4 className="c-text2">

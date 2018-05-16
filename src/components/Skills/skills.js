@@ -64,7 +64,7 @@ class Skills extends React.Component {
                           <td></td>
                           <td></td>
                           <td>Heroku</td>
-                          <td></td>
+                          <td>Media Queries</td>
                       </tr>
                     </tbody>
                   </Table>
