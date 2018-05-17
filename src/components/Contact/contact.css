@@ -106,3 +106,24 @@
     }
     
 }
+
+@media (min-width: 2000px)  {
+  .c-text-container {
+    position: relative;
+    top: 10%;
+    margin: auto;
+    display: block;
+    height: 450px;
+    width:500px;
+    border: solid 1px transparent;
+    background: none;
+    text-align: center;
+    font-family: Courier New;
+    background: none;
+    padding: 2%;
+  }
+  .Message {
+    margin-top: 3%;
+  }
+  
+}
