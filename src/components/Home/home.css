@@ -30,7 +30,58 @@
   
   }
 
-  /* Shutter Out Horizontal */
+.newtext {
+  padding: 1%;
+}
+  
+  .text {
+    position: relative;
+    /* color: white; */
+    top: 10%;
+    
+  }
+  
+  .text2 {
+    margin-top: 8%;
+  
+  }
+  
+  .quote {
+    position: relative;
+    font-family: Courier New;
+    color: white;
+    text-align: center;
+    top:30%;
+    padding: 5%;
+  }
+
+
+  @media (min-width: 415px) {
+    /* .text-container {
+      position: relative;
+      top: 30%;
+      margin: auto;
+      display: block;
+      height: 200px;
+      width:300px;
+      border: solid 1px transparent;
+      background: none;
+      text-align: center;
+      font-family: Courier New;
+    
+    }
+
+    .text {
+      padding: 5%;
+      
+    }
+    
+    .text2 {
+      font-size: 1rem;
+
+    } */
+
+     /* Shutter Out Horizontal */
 .hvr-shutter-out-horizontal {
   display: inline-block;
   vertical-align: middle;
@@ -73,60 +124,6 @@
   transform: scaleX(1);
 }
 
-.newtext {
-  padding: 1%;
-}
-  
-  .text {
-    position: relative;
-    /* color: white; */
-    top: 10%;
-    
-  }
-  
-  .text2 {
-    margin-top: 8%;
-  
-  }
-  
-  .quote {
-    position: relative;
-    font-family: Courier New;
-    color: white;
-    text-align: center;
-    top:30%;
-    padding: 5%;
-  }
-
-
-  @media (min-width: 415px) and (max-width: 600px ) {
-    .text-container {
-      position: relative;
-      top: 30%;
-      margin: auto;
-      display: block;
-      height: 200px;
-      width:300px;
-      border: solid 1px transparent;
-      background: none;
-      text-align: center;
-      font-family: Courier New;
-    
-    }
-
-    .text {
-      padding: 5%;
-      
-    }
-    
-    .text2 {
-      font-size: 1rem;
-
-    }
-
-    .quote {
-      display: none;
-    }
 }
 
 @media (min-width: 0px) and (max-width: 415px ) {
@@ -164,4 +161,6 @@
   .quote {
     display: none;
   }
+
+  
 }
