@@ -1,20 +1,25 @@
 import React from 'react'
 import './about.css';
 import propic from './saashp.png';
+import AOS from 'aos';
 
 class About extends React.Component {
 
-
+    componentDidMount() {
+        AOS.init({
+            duration : 2000
+          })
+    }
     render() {
         return (
         <body className="about-page">
           <div className="ab-bg"> 
           
-              <div className="ab-text-container">
-                
-                <h1 className="ab-text">About Me</h1>
-                <img className="pic" src={propic} alt="propic"/>
-                <div className="ab-text2"> 
+              <div className="ab-text-container" >
+                <div className="textytext hvr-shutter-out-horizontal">
+                <h1 className="ab-text" data-aos="fade-down">About Me</h1>
+                <img className="pic" src={propic} alt="propic" data-aos="fade-down" data-aos-delay="200" />
+                <div className="ab-text2" data-aos="fade-up" data-aos-delay="400"> 
                     <p>Hello world, I'm SaaSha. 👋🏽
                         <br/>
                         <br/>
@@ -28,7 +33,7 @@ class About extends React.Component {
                         <br/>
                         <p className="line">...this site has been hand coded from scratch with ReactJS, by me.</p> 
                     </p>
-                    
+                </div>
                 </div>
               </div>
                

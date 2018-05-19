@@ -4,16 +4,15 @@ import { Table } from 'reactstrap';
 
 class Skills extends React.Component {
 
-
     render() {
         return (
         <body className="skills-page">
           <div className="s-bg"> 
              
               <div className="s-text-container">
-                <h1 className="s-text">Skills</h1>
+                <h1 className="s-text" data-aos="fade-down">Skills</h1>
                
-                  <Table hover className="datas"> 
+                  <Table hover className="datas" data-aos="flip-up"> 
                     <thead>
                       <tr className="head">
                         <th>HTML</th>

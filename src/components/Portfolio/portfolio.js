@@ -17,10 +17,10 @@ class Portfolio extends React.Component {
           <div className="p-bg"> 
          
               <div className="p-text-container">
-                <h1 className="p-text">Portfolio</h1>
-                <div className="cards">
+                <h1 className="p-text" data-aos="fade-down">Portfolio</h1>
+                <div className="cards ">
                   <Row> 
-                    <Col sm="4" className="mycard1">
+                    <Col sm="4" className="mycard1 hvr-float-shadow" data-aos="fade-down" >
                       <Card className="Card Card1" >
                       <a href="https://saashacodes.com" style={{textDecoration:"none"}}> 
                         <CardHeader tag="h3" style={colorblack}> My React Portfolio</CardHeader>
@@ -31,7 +31,7 @@ class Portfolio extends React.Component {
                           </a>  
                       </Card>
                     </Col>
-                    <Col sm="4" className="mycard2">
+                    <Col sm="4" className="mycard2 hvr-float-shadow" data-aos="fade-down" data-aos-delay="400">
                       <Card className="Card Card2"> 
                       <a href="https://codepen.io/saashapina/full/wjWVvb/" style={{textDecoration:"none"}}>
                         <CardHeader tag="h3" style={colorblack}> Pure CSS Image </CardHeader>
@@ -42,7 +42,7 @@ class Portfolio extends React.Component {
                        </a>
                       </Card>
                     </Col>
-                    <Col sm="4" className="mycard3">
+                    <Col sm="4" className="mycard3 hvr-float-shadow" data-aos="fade-down" data-aos-delay="700">
                       <Card className="Card Card3">
                         <CardHeader tag="h3"> Responsive Reactstrap Cards </CardHeader>
                         <CardBody>
