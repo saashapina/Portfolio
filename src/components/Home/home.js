@@ -20,6 +20,10 @@ class Home extends React.Component {
                 </div>
               </div>
                 <p className="quote" data-aos="fade-down" data-aos-delay="800">i would love to change the world, but they won't give me the source code</p>
+                <div className="wholearrow">
+                <div class="scrolltxt">Scroll Down</div>
+                <div class="arrow bounce"></div>
+                </div>
           </div>    
         </body>
         )
