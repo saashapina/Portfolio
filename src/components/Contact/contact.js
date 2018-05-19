@@ -15,6 +15,7 @@ class Contact extends React.Component {
         <body className="contact-page">
           <div className="c-bg"> 
           <Nav/>
+          
          
               <div className="c-text-container" data-aos="fade-up">
                 <h1 className="c-text">Contact Me</h1>
