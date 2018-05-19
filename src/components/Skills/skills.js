@@ -69,7 +69,7 @@ class Skills extends React.Component {
                   </Table>
                 
               </div>
-                <p className="s-quote">i would love to change the world, but they won't give me the source code</p>
+                <p className="s-quote" data-aos="fade-down">i would love to change the world, but they won't give me the source code</p>
           </div>    
         </body>
         )
