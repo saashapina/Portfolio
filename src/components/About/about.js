@@ -24,7 +24,7 @@ class About extends React.Component {
                         <br/>
                         <br/>
                         I'm a Full-Stack Software Developer based in Miami, FL and Boston, MA. 
-                        Outside of coding, I enjoy hiking high mountains, learning japanese, binge watching anime, practicing yoga, and capoeira flipping🤸🏽‍.
+                        Outside of coding, I enjoy hiking high mountains, cuddling with my dogs, learning japanese, practicing yoga, and capoeira flipping🤸🏽‍.
                         <br/>
                         My work is entirely responsive and is inspired by seamless navigation, cinematography and clean user-friendly UI.
                         {/* I'm truly passionate about making the world a better place with <span className="highlight">Tech</span>, <span className="highlight">Innovation</span>, and <span className="highlight">Open-Source</span>,  

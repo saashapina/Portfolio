@@ -4,9 +4,6 @@ import { Button, Form, FormGroup, Label, Input,  } from 'reactstrap';
 import './contact.css';
 import Nav from '../Nav/nav.js';
 
-
-
-
 class Contact extends React.Component {
 
 
@@ -46,9 +43,7 @@ class Contact extends React.Component {
                         <SocialIcon className="item hvr-pulse-grow" url="https://codepen.io/saashapina/" color="white" />
                 
                 </div>
-                <div className="footer"> Copyright © 2018 SaaSha Pina ❤️
-                    <p className="foot1" >Carlos is king of the internet</p>
-                </div>
+                <div className="footer"> Copyright © 2018 SaaSha Pina ❤️</div>
                 
               </div>
               
