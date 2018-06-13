@@ -8,14 +8,14 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    color: lightgrey; 
+    color: black; 
     font-weight: 900;
     
     
 
 }
-/* 
-.navbox:hover {
+
+/* .navbox:hover {
     background-color: rgba(255, 255, 255, 0.3);
     
 } */
@@ -35,14 +35,14 @@
       margin: 0 1rem;
       font-size: 1.25rem;
       font-weight: 400;
-      text-shadow: 0px .5px black;
+      
      
 
      
     }
 .nav-item:hover {
       cursor: pointer;
-      color: lightgray;
+      color: black;
       /* box-shadow: 0px .5px gray; */
       
      

@@ -7,7 +7,7 @@
 .c-bg {
     position: relative;
     background-image: url(https://media2.giphy.com/media/3oz8xVUm3mOvsSRqUg/giphy.gif);
-    background-color: black;
+    background-color: #94C595 ;
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -51,7 +51,7 @@
   
   .c-text-container {
     position: relative;
-    top: 6%;
+    top: 6.5%;
     margin: auto;
     display: block;
     height: 485px;
