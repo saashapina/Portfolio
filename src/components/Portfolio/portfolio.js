@@ -13,23 +13,15 @@ class Portfolio extends React.Component {
     
     render() {
         return (
-        <body className="portfolio-page">
+        <div className="portfolio-page">
           <div className="p-bg"> 
          
               <div className="p-text-container">
-<<<<<<< HEAD
                 <h1 className="p-text">Portfolio</h1>
                 <div className="cards fadingin">
                   <Row> 
                     <Col sm="4" className="mycard1">
                       <Card className="Card Card1 hvr-float-shadow" >
-=======
-                <h1 className="p-text" data-aos="fade-down">Portfolio</h1>
-                <div className="cards ">
-                  <Row> 
-                    <Col sm="4" className="mycard1 hvr-float-shadow" data-aos="fade-down" >
-                      <Card className="Card Card1" >
->>>>>>> 96e1521f322ce90bb8c1ad18ca80cfcd88febb10
                       <a href="https://saashacodes.com" style={{textDecoration:"none"}}> 
                         <CardHeader tag="h3" style={colorblack}> My React Portfolio</CardHeader>
                           <CardBody>
@@ -39,13 +31,8 @@ class Portfolio extends React.Component {
                           </a>  
                       </Card>
                     </Col>
-<<<<<<< HEAD
                     <Col sm="4" className="mycard2">
                       <Card className="Card Card2 hvr-float-shadow"> 
-=======
-                    <Col sm="4" className="mycard2 hvr-float-shadow" data-aos="fade-down" data-aos-delay="400">
-                      <Card className="Card Card2"> 
->>>>>>> 96e1521f322ce90bb8c1ad18ca80cfcd88febb10
                       <a href="https://codepen.io/saashapina/full/wjWVvb/" style={{textDecoration:"none"}}>
                         <CardHeader tag="h3" style={colorblack}> Pure CSS Image </CardHeader>
                         <CardBody>
@@ -55,13 +42,8 @@ class Portfolio extends React.Component {
                        </a>
                       </Card>
                     </Col>
-<<<<<<< HEAD
                     <Col sm="4" className="mycard3">
                       <Card className="Card Card3 hvr-float-shadow">
-=======
-                    <Col sm="4" className="mycard3 hvr-float-shadow" data-aos="fade-down" data-aos-delay="700">
-                      <Card className="Card Card3">
->>>>>>> 96e1521f322ce90bb8c1ad18ca80cfcd88febb10
                         <CardHeader tag="h3"> Responsive Reactstrap Cards </CardHeader>
                         <CardBody>
                           <img className="image" width="100%" src={ Starwars } alt="Responsive Cards"/>
@@ -76,7 +58,7 @@ class Portfolio extends React.Component {
               
                
           </div>    
-        </body>
+        </div>
         )
     }
 

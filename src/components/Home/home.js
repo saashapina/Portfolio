@@ -1,38 +1,37 @@
-import React from 'react'
+import React from 'react';
 import './home.css';
+import TypeWriter from 'react-typewriter';
 
 const colorwhite = {
   color: 'white'
 }
+
 
 class Home extends React.Component {
 
 
     render() {
         return (
-        <body className="home-page">
+        <div className="home-page">
           <div className="bg"> 
             
-<<<<<<< HEAD
-              <div className="text-container fadingin">
+              {/* <div className="text-container fadingin">
                 <div className= "new-text hvr-shutter-out-horizontal">
                 <h1 className="text" style={colorwhite} >SaaSha</h1>
                 <h4 className="text2">Full-Stack Software Developer | Ninja | Life Enthusiast</h4>
-                </div>
-=======
+                </div> */}
               <div className="text-container">
                 <div className="newtext" data-aos="fade-down" data-aos-delay="200">
-                  <h1 className="text" style={colorwhite} >SaaSha</h1>
-                  <h4 className="text2">Full-Stack Software Developer | Ninja | Life Enthusiast</h4>
+                  <h1 className="text" style={colorwhite} typing={1} >SaaSha</h1>
+                  <TypeWriter className="text2" typing={1}>Full-Stack Software Developer | Ninja | Life Enthusiast</TypeWriter>
                 </div>
-                <div class="scrolltxt">Scroll Down</div>
-                <div class="arrow bounce"></div>
+                <div className="scrolltxt">Scroll Down</div>
+                <div className="arrow bounce"></div>
 
->>>>>>> 96e1521f322ce90bb8c1ad18ca80cfcd88febb10
               </div>
                 <p className="quote" data-aos="fade-down" data-aos-delay="800">i would love to change the world, but they won't give me the source code</p>
           </div>    
-        </body>
+        </div>
         )
     }
 

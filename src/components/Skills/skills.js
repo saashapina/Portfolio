@@ -6,7 +6,7 @@ class Skills extends React.Component {
 
     render() {
         return (
-        <body className="skills-page">
+        <div className="skills-page">
           <div className="s-bg"> 
              
               <div className="s-text-container">
@@ -71,7 +71,7 @@ class Skills extends React.Component {
               </div>
                 <p className="s-quote" data-aos="fade-down">i would love to change the world, but they won't give me the source code</p>
           </div>    
-        </body>
+        </div>
         )
     }
 

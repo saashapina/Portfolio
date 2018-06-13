@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
 .navbox {
     position: fixed;
     top: 0;
@@ -6,33 +8,44 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    color: white; 
-    /* background-color: rgba(255, 255, 255, 0.3); */
+    color: lightgrey; 
+    font-weight: 900;
+    
+    
 
 }
+/* 
+.navbox:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    
+} */
 
 .nav {
     margin-right: 1rem;
     display: flex;
     flex: 1;
     justify-content: flex-end;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans Condensed', sans-serif;
     opacity: .5;
-    text-shadow: 2px 2px gray;
+    font-weight: bolder;
+    
 }
 .nav-item {
       padding: 0.25rem 0;
       margin: 0 1rem;
       font-size: 1.25rem;
       font-weight: 400;
-      border-bottom: 2px solid transparent;
+      text-shadow: 0px .5px black;
+     
 
      
     }
 .nav-item:hover {
       cursor: pointer;
-      border-bottom: 1px solid white;
-      box-shadow: 0px .5px gray;
+      color: lightgray;
+      /* box-shadow: 0px .5px gray; */
+      
+     
     }
 
 
