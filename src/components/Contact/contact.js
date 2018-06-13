@@ -16,7 +16,7 @@ class Contact extends React.Component {
           <div className="c-bg"> 
           <Nav/>
          
-              <div className="c-text-container">
+              <div className="c-text-container hvr-shutter-out-horizontal">
                 <h1 className="c-text">Contact Me</h1>
                 <h4 className="c-text2">
         

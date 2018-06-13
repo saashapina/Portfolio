@@ -18,10 +18,10 @@ class Portfolio extends React.Component {
          
               <div className="p-text-container">
                 <h1 className="p-text">Portfolio</h1>
-                <div className="cards">
+                <div className="cards fadingin">
                   <Row> 
                     <Col sm="4" className="mycard1">
-                      <Card className="Card Card1" >
+                      <Card className="Card Card1 hvr-float-shadow" >
                       <a href="https://saashacodes.com" style={{textDecoration:"none"}}> 
                         <CardHeader tag="h3" style={colorblack}> My React Portfolio</CardHeader>
                           <CardBody>
@@ -32,7 +32,7 @@ class Portfolio extends React.Component {
                       </Card>
                     </Col>
                     <Col sm="4" className="mycard2">
-                      <Card className="Card Card2"> 
+                      <Card className="Card Card2 hvr-float-shadow"> 
                       <a href="https://codepen.io/saashapina/full/wjWVvb/" style={{textDecoration:"none"}}>
                         <CardHeader tag="h3" style={colorblack}> Pure CSS Image </CardHeader>
                         <CardBody>
@@ -43,7 +43,7 @@ class Portfolio extends React.Component {
                       </Card>
                     </Col>
                     <Col sm="4" className="mycard3">
-                      <Card className="Card Card3">
+                      <Card className="Card Card3 hvr-float-shadow">
                         <CardHeader tag="h3"> Responsive Reactstrap Cards </CardHeader>
                         <CardBody>
                           <img className="image" width="100%" src={ Starwars } alt="Responsive Cards"/>

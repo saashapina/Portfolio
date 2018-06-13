@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css';
+import aos from 'aos';
 import propic from './saashp.png';
 
 class About extends React.Component {
@@ -12,7 +13,7 @@ class About extends React.Component {
           
               <div className="ab-text-container">
                 
-                <h1 className="ab-text">About Me</h1>
+                <h1 className="ab-text" data-aos="flip-side" >About Me</h1>
                 <img className="pic" src={propic} alt="propic"/>
                 <div className="ab-text2"> 
                     <p>Hello world, I'm SaaSha. 👋🏽
