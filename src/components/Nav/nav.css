@@ -36,16 +36,11 @@
     }
 
 
-@media (min-width: 400px) and (max-width: 600px ) {
-    .navbox {
-        display: none;
-    }
-}
-    
+
 
 @media (min-width: 0px) and (max-width: 725px ) {
     .navbox {
-        display: none;
+    display: none;
     }
 
-}
+} 

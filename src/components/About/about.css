@@ -8,9 +8,14 @@
     position: relative;
     background: white;
     height: 100%;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .textytext {
+    padding: 1.5%;
   }
   
   
@@ -46,8 +51,6 @@
     
   }
 
-  
-
   .ab-text2 {
     display: flex;
     margin-top: 5%;
@@ -62,11 +65,15 @@
     font-style: italic;
   }
 
+<<<<<<< HEAD
   .slideleft {
     transform: translate3d(100%, 0, 0);
   }
 
  
+=======
+
+>>>>>>> 96e1521f322ce90bb8c1ad18ca80cfcd88febb10
   @media (min-width: 400px) and (max-width: 600px ) {
     .ab-text-container {
       position: relative;
@@ -112,6 +119,7 @@
     }
     
 }
+ 
     
   @media (min-width: 0px) and (max-width: 400px ) {
     .ab-text-container {
@@ -156,4 +164,3 @@
     }
 
 }
-

@@ -51,31 +51,31 @@ class Nav extends Component {
         >
           <div className="nav">
             <div
-              className="nav-item active"
+              className="nav-item active hvr-grow"
               onClick={(e) => this.scrollToPage('.home-page')}
             >
               Home
             </div>
             <div
-              className="nav-item"
+              className="nav-item hvr-grow"
               onClick={(e) => this.scrollToPage('.about-page')}
             >
               About
             </div>
             <div
-              className="nav-item"
+              className="nav-item hvr-grow"
               onClick={(e) => this.scrollToPage('.skills-page')}
             >
               Skills
             </div>
             <div
-              className="nav-item"
+              className="nav-item hvr-grow"
               onClick={(e) => this.scrollToPage('.portfolio-page')}
             >
               Portfolio
             </div>
             <div
-              className="nav-item"
+              className="nav-item hvr-grow"
               onClick={(e) => this.scrollToPage('.contact-page')}
             >
               Contact

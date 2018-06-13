@@ -4,16 +4,15 @@ import { Table } from 'reactstrap';
 
 class Skills extends React.Component {
 
-
     render() {
         return (
         <body className="skills-page">
           <div className="s-bg"> 
              
               <div className="s-text-container">
-                <h1 className="s-text">Skills</h1>
+                <h1 className="s-text" data-aos="fade-down">Skills</h1>
                
-                  <Table hover className="datas"> 
+                  <Table hover className="datas" data-aos="flip-up"> 
                     <thead>
                       <tr className="head">
                         <th>HTML</th>
@@ -70,7 +69,7 @@ class Skills extends React.Component {
                   </Table>
                 
               </div>
-                <p className="s-quote">i would love to change the world, but they won't give me the source code</p>
+                <p className="s-quote" data-aos="fade-down">i would love to change the world, but they won't give me the source code</p>
           </div>    
         </body>
         )

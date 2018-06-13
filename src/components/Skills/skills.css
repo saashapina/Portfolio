@@ -47,6 +47,7 @@
     text-align: center;
     top:40%;
     padding: 5%;
+    
   }
 
 
@@ -72,4 +73,6 @@
   .s-text-container {
     display: none;
   }
+
+  
 }
