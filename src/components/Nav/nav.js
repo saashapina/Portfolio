@@ -49,7 +49,7 @@ class Nav extends Component {
             this.nav = elem;
           }}
         >
-          <div className="nav">
+          <div className="nav" data-aos="fade-down" data-aos-delay="400">
             <div
               className="nav-item active hvr-grow"
               onClick={(e) => this.scrollToPage('.home-page')}
