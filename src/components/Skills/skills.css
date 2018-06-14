@@ -76,3 +76,18 @@
 
   
 }
+
+@media (min-width: 0px) and (max-width: 415px ) {
+  .s-bg {
+    position: relative;
+    /* background-image: url(https://media.giphy.com/media/Ez5jnMIxk2Dug/giphy.gif); */
+    background-color: #D6AC99;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+}

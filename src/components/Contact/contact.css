@@ -6,8 +6,8 @@
   
 .c-bg {
     position: relative;
-    background-image: url(https://media2.giphy.com/media/3oz8xVUm3mOvsSRqUg/giphy.gif);
-    background-color: #94C595 ;
+    /* background-image: url(https://media2.giphy.com/media/3oz8xVUm3mOvsSRqUg/giphy.gif); */
+    background-color: #D6AC99 ;
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -101,11 +101,10 @@
 
   .footer {
     color: white;
-    
     text-align: center;
-    margin-top: 18%;
+    margin-top: 10%;
     width: 100%;
-    
+    margin-bottom: 0%;
   }
 
   @media (min-width: 500px) {

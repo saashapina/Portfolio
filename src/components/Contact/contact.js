@@ -3,6 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 import { Button, Form, FormGroup, Label, Input,  } from 'reactstrap';
 import './contact.css';
 import Nav from '../Nav/nav.js';
+import Particles from 'react-particles-js';
 
 
 
@@ -15,23 +16,21 @@ class Contact extends React.Component {
         <div className="contact-page">
           <div className="c-bg"> 
           <Nav/>
-         
-              <div className="c-text-container ">
+              <div className="c-text-container"  data-aos="fade-down" data-aos-delay="200" >
                 <h1 className="c-text">Contact Me</h1>
                 <h4 className="c-text2">
-        
                     <Form action="https://formspree.io/saashacodes@gmail.com" method="POST" id="contactform">
                         <FormGroup>
                             <Label>Name:</Label>
-                            <Input className="hvr-pulse-grow" type="text" name="name" placeholder="name" />
+                            <Input className="hvr-grow" type="text" name="name" placeholder="name" />
                         </FormGroup>
                         <FormGroup>
                             <Label>Email:</Label>
-                            <Input className="hvr-pulse-grow" type="email" name="replyto" placeholder="email" />
+                            <Input className="hvr-grow" type="email" name="replyto" placeholder="email" />
                         </FormGroup>
                         <FormGroup>
                             <Label>Message:</Label>
-                            <Input className="hvr-pulse-grow" type="text" name="message" placeholder="message"/>
+                            <Input className="hvr-grow" type="text" name="message" placeholder="message"/>
                         </FormGroup>
                         <Button className="Button" type="submit">Submit</Button>
                     </Form>
@@ -47,8 +46,8 @@ class Contact extends React.Component {
                 </div>
                 <div className="footer"> Copyright © 2018 SaaSha Pina ❤️</div>
               </div>
-              
           </div>    
+          
         </div>
         )
     }

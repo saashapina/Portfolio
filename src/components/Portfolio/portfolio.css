@@ -179,20 +179,3 @@
   }
 
 }
-
-@media (min-width: 0px) and (max-width: 575px ) {
-  
-  
-  .mycard2 {
-    margin-top: 30%;
-  }
-
-  .mycard1 {
-    display: none;
-  }
-
-  .mycard3 {
-    display: none;
-  }
-
-}

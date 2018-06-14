@@ -28,8 +28,13 @@
     font-family: 'Open Sans Condensed', sans-serif;
     opacity: .5;
     font-weight: bolder;
+    background:rgb(255, 255, 255, 0.4);
     
 }
+
+/* .nav:hover {
+    background:rgb(255, 255, 255, 0.5);
+} */
 .nav-item {
       padding: 0.25rem 0;
       margin: 0 1rem;
@@ -43,7 +48,9 @@
 .nav-item:hover {
       cursor: pointer;
       color: black;
-      /* box-shadow: 0px .5px gray; */
+      text-shadow: 0px .5px black;
+      /* font-weight: bolder; */
+      
       
      
     }

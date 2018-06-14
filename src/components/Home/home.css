@@ -43,7 +43,7 @@
   }
   
   .text2 {
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 160%;
   }
   
@@ -104,7 +104,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgb(0, 0, 0, 0.07);
+  background: linear-gradient(rgb(242, 153, 242, 0.3), rgb(147, 178, 235, 0.3));
   border: .25px solid transparent;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);

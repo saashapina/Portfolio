@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
-import TypeWriter from 'react-typewriter';
+// import TypeWriter from 'react-typewriter';
+import Typing from 'react-typing-animation';
 
 const colorwhite = {
   color: 'white'
@@ -23,7 +24,8 @@ class Home extends React.Component {
               <div className="text-container">
                 <div className="newtext" data-aos="fade-down" data-aos-delay="200">
                   <h1 className="text" style={colorwhite} typing={1} >SaaSha</h1>
-                  <TypeWriter className="text2" typing={1}>Full-Stack Software Developer | Ninja | Life Enthusiast</TypeWriter>
+                  <Typing className="text2"> <span>Full-Stack Software Developer</span><Typing.Delay ms={1000}/><Typing.Backspace count={30}/> | 
+                   <span> Ninja</span><Typing.Delay ms={1000}/><Typing.Backspace count={8}/> | <span>Life Enthusiast</span><Typing.Delay ms={3000}/><Typing.Backspace count={20}/> </Typing>
                 </div>
                 <div className="scrolltxt">Scroll Down</div>
                 <div className="arrow bounce"></div>
