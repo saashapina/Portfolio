@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 .home-page {
     height:800px;
     /* height: 637px; */
@@ -38,13 +39,20 @@
   .text {
     position: relative;
     /* color: white; */
-    top: 10%;
-    
+    /* top: 10%;  */
+    /* font-family: 'Pacifico', cursive;  */
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Poiret One', cursive; */
+    font-weight: 200;
+    font-size: 350%;
   }
   
   .text2 {
-    margin-top: 10%;
-    font-size: 160%;
+    margin-top: 4%;
+    font-size: 150%;
+    /* font-family: 'Poiret One', cursive; */
+    /* color: black; */
+    
   }
   
   .quote {
@@ -58,29 +66,6 @@
 
 
   @media (min-width: 415px) {
-    /* .text-container {
-      position: relative;
-      top: 30%;
-      margin: auto;
-      display: block;
-      height: 200px;
-      width:300px;
-      border: solid 1px transparent;
-      background: none;
-      text-align: center;
-      font-family: Courier New;
-    
-    }
-
-    .text {
-      padding: 5%;
-      
-    }
-    
-    .text2 {
-      font-size: 1rem;
-
-    } */
 
      /* Shutter Out Horizontal */
 .hvr-shutter-out-horizontal {
@@ -104,7 +89,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(rgb(242, 153, 242, 0.3), rgb(147, 178, 235, 0.3));
+  background: linear-gradient(rgb(242, 153, 242, 0.4), rgb(147, 178, 235, 0.4));
   border: .25px solid transparent;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);

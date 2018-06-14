@@ -9,32 +9,27 @@
     align-items: center;
     justify-content: flex-end;
     color: black; 
-    font-weight: 900;
-    
-    
-
 }
-
-/* .navbox:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    
-} */
 
 .nav {
     margin-right: 1rem;
     display: flex;
     flex: 1;
     justify-content: flex-end;
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Poiret One', cursive;
     opacity: .5;
     font-weight: bolder;
-    background:rgb(255, 255, 255, 0.1);
     
+    /* background:rgb(255, 255, 255, 0.1); */
 }
 
-/* .nav:hover {
-    background:rgb(255, 255, 255, 0.5);
-} */
+
+
+.nav:hover {
+    background:rgb(255, 255, 255, 0.3);
+}
+
 .nav-item {
       padding: 0.25rem 0;
       margin: 0 1rem;

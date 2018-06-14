@@ -43,13 +43,14 @@ class Nav extends Component {
   
       const stickyClass = this.state.isSticky ? 'sticky' : '';
       return (
-        <div className="navbox">
-        <nav
+        <div className="navbox"> 
+        {/* <div className="menu">Menu</div> */}
+        <div
           className={stickyClass} ref={(elem) => {
             this.nav = elem;
           }}
         >
-          <div className="nav" data-aos="fade-down" data-aos-delay="400">
+          <div className="nav" data-aos="fade-down" data-aos-delay="3000">
             <div
               className="nav-item active hvr-grow"
               onClick={(e) => this.scrollToPage('.home-page')}
@@ -81,7 +82,7 @@ class Nav extends Component {
               Contact
             </div>
           </div>
-        </nav>
+        </div>
         </div>
       );
     }

@@ -26,7 +26,7 @@ class Portfolio extends React.Component {
                         <CardHeader tag="h3" style={colorblack}> My React Portfolio</CardHeader>
                           <CardBody>
                             <img className="image" width="100%" src="https://image.ibb.co/dZ6rkd/portfolio.png" alt="Portfolio Card Image"/>
-                            <CardText className="p-text">Created my first React Portfolio, made entirely with ReactJS and reactstrap. Completely Responsive, and easily navigated.</CardText>
+                            <CardText className="p-text2">Created my first React Portfolio, made entirely with ReactJS and reactstrap. Completely Responsive, and easily navigated.</CardText>
                           </CardBody>
                           </a>  
                       </Card>
@@ -37,7 +37,7 @@ class Portfolio extends React.Component {
                         <CardHeader tag="h3" style={colorblack}> Pure CSS Image </CardHeader>
                         <CardBody>
                           <img className="image" width="100%" src="https://image.ibb.co/kZT45d/portfolio2.png" alt="Mario Card Image"/>
-                          <CardText className="p-text"> Created a Pure CSS animated Mario on a Nintendo Switch. Almost 700 lines of Pure CSS.</CardText>
+                          <CardText className="p-text2"> Created a Pure CSS animated Mario on a Nintendo Switch. Almost 700 lines of Pure CSS.</CardText>
                         </CardBody>
                        </a>
                       </Card>
@@ -47,7 +47,7 @@ class Portfolio extends React.Component {
                         <CardHeader tag="h3"> Responsive Reactstrap Cards </CardHeader>
                         <CardBody>
                           <img className="image" width="100%" src={ Starwars } alt="Responsive Cards"/>
-                          <CardText className="p-text"> Created Responsive Reactstrap Cards for Starwars characters taken from SWAPI The Star Wars API</CardText>
+                          <CardText className="p-text2"> Created Responsive Reactstrap Cards for Starwars characters taken from SWAPI The Star Wars API</CardText>
                         </CardBody>
                        
                       </Card>

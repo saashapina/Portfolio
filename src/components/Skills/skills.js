@@ -41,27 +41,27 @@ class Skills extends React.Component {
                           <td>PUG</td>
                           <td>LESS</td>
                           <td>Javascript(ES6)</td> 
-                          <td>NodeJS</td>
-                          <td>Code Pen</td>
+                          <td>Firebase</td>
+                          <td>Blender</td>
                       </tr>
                       <tr>
                           <td></td>
                           <td>Bootstrap</td>
                           <td>NodeJS</td>
-                          <td>Firebase</td>
+                          <td>Express</td>
                           <td>Responsive Sites</td>
                       </tr>
                       <tr>
                           <td></td>
                           <td>Reactstrap</td>
-                          <td>Mocha/Chai testing</td>
+                          <td>JQuery</td>
                           <td>mLab</td>
                           <td>Agile Working Enviornment</td>
                       </tr>
                       <tr>
                           <td></td>
-                          <td></td>
-                          <td></td>
+                          <td>SASS</td>
+                          <td>Mocha/Chai testing</td>
                           <td>Heroku</td>
                           <td>Media Queries</td>
                       </tr>

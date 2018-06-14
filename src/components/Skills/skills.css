@@ -18,7 +18,7 @@
   
   .s-text-container {
     position: relative;
-    top: 10%;
+    top: 8%;
     margin: auto;
     display: block;
     height: 80%;
@@ -26,18 +26,21 @@
     /* border: solid 1px none; */
     background: none;
     text-align: center;
-    font-family: Courier New;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .s-text {
     position: relative;
     color: white;
     top: 2%;
+    font-size: 3rem;
+    font-family: 'Poiret One', cursive;
   }
   
   .s-text2 {
     margin-top: 0%;
     color: white;
+    /* font-family: 'Poiret One', cursive; */
   }
   
   .s-quote {
@@ -54,7 +57,7 @@
 .datas {
   position: absolute;
   text-shadow: .3px .3px black;
-  margin-top: 8%;
+  margin-top: 4%;
   color: white;
   
 }
