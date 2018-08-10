@@ -25,7 +25,7 @@ class About extends React.Component {
                     <p>Hello world, I'm SaaSha. 👋🏽
                         <br/>
                         <br/>
-                        I'm a Full-Stack Software Developer based in Miami, FL and Boston, MA. 
+                        I'm a Full Stack Software Engineer based in Miami, FL and Boston, MA. 
                         Outside of coding, I enjoy hiking high mountains, Xtreme Martial Arts, learning japanese, practicing yoga, and capoeira flipping🤸🏽‍.
                         <br/>
                         My work is entirely responsive and is inspired by seamless navigation, cinematography and clean user-friendly UI.
