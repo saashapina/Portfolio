@@ -22,16 +22,27 @@ class Portfolio extends React.Component {
                   <Row> 
                     <Col sm="4" className="mycard1">
                       <Card className="Card Card1 hvr-float-shadow"  data-aos="fade-down" data-aos-delay="300">
-                      <a href="https://saashacodes.com" style={{textDecoration:"none"}}> 
-                        <CardHeader tag="h3" style={colorblack}> My React Portfolio</CardHeader>
+                      <a href="https://www.youtube.com/watch?v=iRNm42evvT0" style={{textDecoration:"none"}}> 
+                        <CardHeader tag="h3" style={colorblack}>Lambda Hair School</CardHeader>
                           <CardBody>
-                            <img className="image" width="100%" src="https://image.ibb.co/dZ6rkd/portfolio.png" alt="Portfolio Card Image"/>
-                            <CardText className="p-text">Created my first React Portfolio, made entirely with ReactJS and reactstrap. Completely Responsive, and easily navigated.</CardText>
+                            <img className="image" width="100%" src="https://preview.ibb.co/f6Ycap/Capstone_Slide1.png" alt="Tweet Collage"/>
+                            <CardText className="p-text">A full-stack web application used to schedule appointments and leave feedback for your favorite student stylists!</CardText>
                           </CardBody>
                           </a>  
                       </Card>
                     </Col>
                     <Col sm="4" className="mycard2">
+                      <Card className="Card Card3 hvr-float-shadow"  data-aos="fade-down" data-aos-delay="900">
+                      <a href="https://www.youtube.com/watch?v=RlbHlq58GYA" style={{textDecoration:"none"}}>
+                        <CardHeader tag="h3" style={colorblack}> Tweet Collage 🏆 </CardHeader>
+                        <CardBody>
+                          <img className="image" width="100%" src="https://preview.ibb.co/nfHaT9/slide0.png" alt="Responsive Cards"/>
+                          <CardText className="p-text"> Award Winning Lambda School Hackathon Project Created in 36 hours - TweetCollage, A Web application that turns your tweets into shareable art that represents who you are and what you tweet about.</CardText>
+                        </CardBody>
+                       </a>
+                      </Card>
+                    </Col>
+                    <Col sm="4" className="mycard3">
                       <Card className="Card Card2 hvr-float-shadow"  data-aos="fade-down" data-aos-delay="600"> 
                       <a href="https://codepen.io/saashapina/full/wjWVvb/" style={{textDecoration:"none"}}>
                         <CardHeader tag="h3" style={colorblack}> Pure CSS Image </CardHeader>
@@ -40,16 +51,6 @@ class Portfolio extends React.Component {
                           <CardText className="p-text"> Created a Pure CSS animated Mario on a Nintendo Switch. Almost 700 lines of Pure CSS.</CardText>
                         </CardBody>
                        </a>
-                      </Card>
-                    </Col>
-                    <Col sm="4" className="mycard3">
-                      <Card className="Card Card3 hvr-float-shadow"  data-aos="fade-down" data-aos-delay="900">
-                        <CardHeader tag="h3"> Responsive Reactstrap Cards </CardHeader>
-                        <CardBody>
-                          <img className="image" width="100%" src={ Starwars } alt="Responsive Cards"/>
-                          <CardText className="p-text"> Created Responsive Reactstrap Cards for Starwars characters taken from SWAPI The Star Wars API</CardText>
-                        </CardBody>
-                       
                       </Card>
                     </Col>
                   </Row>

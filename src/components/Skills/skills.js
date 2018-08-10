@@ -47,8 +47,8 @@ class Skills extends React.Component {
                       <tr>
                           <td></td>
                           <td>Bootstrap</td>
-                          <td>NodeJS</td>
-                          <td>Express</td>
+                          <td>BlenderJS</td>
+                          <td>NodeJS/Express</td>
                           <td>Responsive Sites</td>
                       </tr>
                       <tr>
