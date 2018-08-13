@@ -5911,9 +5911,9 @@ react-dom@^16.3.2:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-easy-swipe@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/react-easy-swipe/-/react-easy-swipe-0.0.14.tgz#a53ba5708a540cd4ba854888291d813edda50889"
+react-easy-swipe@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/react-easy-swipe/-/react-easy-swipe-0.0.16.tgz#5a3d949a8f975d05be92a818254315d1318a81ea"
   dependencies:
     prop-types "^15.5.8"
 
@@ -5934,13 +5934,13 @@ react-popper@^0.10.4:
     popper.js "^1.14.1"
     prop-types "^15.6.1"
 
-react-responsive-carousel@^3.1.37:
-  version "3.1.37"
-  resolved "https://registry.yarnpkg.com/react-responsive-carousel/-/react-responsive-carousel-3.1.37.tgz#95685fb4f8c67bc8c7450753d028e6194e98e91f"
+react-responsive-carousel@^3.1.41:
+  version "3.1.41"
+  resolved "https://registry.yarnpkg.com/react-responsive-carousel/-/react-responsive-carousel-3.1.41.tgz#b100f192ae7b147bf87eb17942ac5738cfd146fb"
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.5.8"
-    react-easy-swipe "^0.0.14"
+    react-easy-swipe "^0.0.16"
 
 react-router-dom@^4.2.2:
   version "4.2.2"

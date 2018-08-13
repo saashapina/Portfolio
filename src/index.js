@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'aos/dist/aos.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
