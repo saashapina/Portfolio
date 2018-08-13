@@ -17,7 +17,7 @@ class Skills extends React.Component {
                       <tr className="head">
                         <th>HTML</th>
                         <th>CSS</th>
-                        <th>Javascript</th>
+                        <th>JavaScript</th>
                         <th>Back-End</th>
                         <th>Others</th>
                       </tr>
@@ -26,44 +26,44 @@ class Skills extends React.Component {
                       <tr>
                         <td>HTML5</td>
                         <td>CSS3</td>
-                        <td>ReactJS</td>
-                        <td>MongoDB</td>
+                        <td>JavaScript(ES6)</td>
+                        <td>Python/Django</td>
                         <td>Github</td>
                       </tr>
                       <tr>
                         <td>JSX</td>
-                        <td>SCSS</td>
-                        <td>Redux</td>
-                        <td>RESTful/ CRUD APIs</td>
-                        <td>Visual Studios</td>
+                        <td>Sass/SCSS</td>
+                        <td>React</td>
+                        <td>SQLite3</td>
+                        <td>Visual Studio</td>
                       </tr>
                       <tr>
                           <td>PUG</td>
                           <td>LESS</td>
-                          <td>Javascript(ES6)</td> 
-                          <td>Firebase</td>
+                          <td>Redux</td> 
+                          <td>NodeJS/Express</td>
                           <td>Blender</td>
                       </tr>
                       <tr>
                           <td></td>
                           <td>Bootstrap</td>
-                          <td>BlenderJS</td>
-                          <td>NodeJS/Express</td>
-                          <td>Responsive Sites</td>
+                          <td>JQuery</td>
+                          <td>MongoDB</td>
+                          <td>Kanban/Trello Boards</td>
                       </tr>
                       <tr>
                           <td></td>
-                          <td>Reactstrap</td>
-                          <td>JQuery</td>
-                          <td>mLab</td>
+                          <td>Media Queries/Resposive Sites</td>
+                          <td>BabylonJS</td>
+                          <td>MongoDB/mLab</td>
                           <td>Agile Working Enviornment</td>
                       </tr>
                       <tr>
                           <td></td>
-                          <td>SASS</td>
-                          <td>Mocha/Chai testing</td>
-                          <td>Heroku</td>
-                          <td>Media Queries</td>
+                          <td></td>
+                          <td>Mocha/ChaiJS testing</td>
+                          <td>Heroku/Netlify/Firebase</td>
+                          <td>Team Collaboration</td>
                       </tr>
                     </tbody>
                   </Table>

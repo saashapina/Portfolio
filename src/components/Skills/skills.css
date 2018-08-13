@@ -59,7 +59,7 @@
   text-shadow: .3px .3px black;
   margin-top: 4%;
   color: white;
-  
+  width: 100%;
 }
 .head {
   font-size: 150%;
@@ -72,7 +72,7 @@
   color: black;
 }
 
-@media (min-width: 0px) and (max-width: 725px ) {
+@media (min-width: 0px) and (max-width: 950px ) {
   .s-text-container {
     display: none;
   }
@@ -94,3 +94,4 @@
   }
   
 }
+
