@@ -63,7 +63,7 @@ class Portfolio extends React.Component {
                     <Col sm="4" className="mycard4">
                       <Card className="Card Card2 hvr-float-shadow"  /*data-aos="fade-down" data-aos-delay="600" */> 
                       <a href="https://codepen.io/saashapina/full/wjWVvb/" style={{textDecoration:"none"}}>
-                        <CardHeader tag="h3" style={colorblack}> Pure CSS Image </CardHeader>
+                        <CardHeader tag="h3" style={colorblack}> Animated Pure CSS Image </CardHeader>
                         <CardBody>
                           <img className="image" width="100%" src="https://image.ibb.co/kZT45d/portfolio2.png" alt="Mario Card Image"/>
                           <CardText className="p-text"> Created a Pure CSS animated Mario on a Nintendo Switch. Almost 700 lines of Pure CSS.</CardText>
