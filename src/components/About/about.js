@@ -37,8 +37,7 @@ class About extends React.Component {
                         teamwork, moving forward and making things work. 
                         <br/>
                         <br/>
-                        <Typing className="line"><Typing.Delay ms={22000}/>...My work is entirely responsive and is inspired by seamless navigation, cinematography 
-                        and clean user-friendly UI.<Typing.Delay ms={1000}/></Typing> 
+                        <Typing className="line"><Typing.Delay ms={22000}/>...My work is entirely responsive and is inspired by seamless clean user-friendly UI.❤️<Typing.Delay ms={1000}/></Typing> 
                     </p>
                 </div>
                 </div>

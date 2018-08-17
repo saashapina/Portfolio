@@ -30,7 +30,7 @@ class Portfolio extends React.Component {
                             <CardText className="p-text">Fully responsive fashion film portfolio page for a film artist. Created with JavaScript, HTML, CSS and ReactJS.</CardText>
                           </CardBody>
                         </a>  
-                        <div className="button" href="https://github.com/saashapina/VinylWaif" target="_blank">See Github Repo</div>
+                        <a className="button" href="https://github.com/saashapina/VinylWaif" target="_blank">Github Repo</a>
                       </Card>
                     </Col>
                     <Col sm="4" className="mycard2">
@@ -42,7 +42,7 @@ class Portfolio extends React.Component {
                             <CardText className="p-text">A full-stack web application used to schedule appointments and leave feedback for student hair stylists</CardText>
                           </CardBody>
                         </a>
-                        <div className="button" href="https://github.com/Lambda-School-Labs/CS8-hairschool" target="_blank">See Github Repo</div>  
+                        <a className="button" href="https://github.com/Lambda-School-Labs/CS8-hairschool" target="_blank">Github Repo</a>  
                       </Card>
                     </Col>
                     <Col sm="4" className="mycard3">
@@ -54,7 +54,7 @@ class Portfolio extends React.Component {
                           <CardText className="p-text"> Award Winning Lambda School Hackathon Project Created in 24 hours - TweetCollage, A Web application that turns your tweets into shareable art that represents who you are and what you tweet about.</CardText>
                         </CardBody>
                        </a>
-                       <div className="button" href="https://github.com/saashapina/TweetCollage" target="_blank">See Github Repo</div> 
+                       <a className="button" href="https://github.com/saashapina/TweetCollage" target="_blank">Github Repo</a> 
                       </Card>
                     </Col>
                     </Row>
@@ -91,7 +91,7 @@ class Portfolio extends React.Component {
                           <CardText className="p-text"> Created a Twitter Bot that replies to mentions, posts images, and responds to follows</CardText>
                         </CardBody>
                       </a>
-                      <div className="button" href="https://github.com/saashapina/TweetCollage-TwitterBot" target="_blank">See Github Repo</div>
+                      <a className="button" href="https://github.com/saashapina/TweetCollage-TwitterBot" target="_blank">Github Repo</a>
                       </Card>
                     </Col>
                   </Row>

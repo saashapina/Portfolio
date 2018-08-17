@@ -61,7 +61,12 @@ Button {
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 9%;
-  background-color: rgb(0, 0, 0, 0.05);
+  font-weight: 500;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.button:hover {
+  color: rgb(0, 0, 0, 0.6);
 }
 
 .bottomImageRow {
