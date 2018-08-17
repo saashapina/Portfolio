@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 .home-page {
-    height:800px;
+    height:100vh;
     /* height: 637px; */
     /* height: 768px; */
     margin: 0;

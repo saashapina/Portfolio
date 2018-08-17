@@ -26,12 +26,19 @@ class About extends React.Component {
                         <br/>
                         <br/>
                         I'm a Full Stack Software Engineer based in Miami, FL and Boston, MA. 
-                        Outside of coding, I enjoy hiking high mountains, Xtreme Martial Arts, learning japanese, practicing yoga, and capoeira flipping🤸🏽‍.
+                        Outside of coding, I enjoy hiking high mountains, Xtreme Martial Arts, 
+                        learning japanese, practicing yoga, & capoeira flipping🤸🏽‍.
+                        <br/><br/>
+                        I have a thing for creating beautiful applications and solving problems. I believe 
+                        craft, imagination, and embracing diverse creativity is what makes the world 
+                        turn round. I've developed several web applications and websites including 
+                        contribution to a Hackathon winning webapp called TweetCollage that takes in 
+                        tweets and returns collage art. <br/><br/>I'm passionate about open-source, collaboration, 
+                        teamwork, moving forward and making things work. 
                         <br/>
-                        My work is entirely responsive and is inspired by seamless navigation, cinematography and clean user-friendly UI.
                         <br/>
-                        <br/>
-                        <Typing className="line"><Typing.Delay ms={22000}/>...this site has been hand coded and designed from scratch with ReactJS,<Typing.Delay ms={1000}/> by me.</Typing> 
+                        <Typing className="line"><Typing.Delay ms={22000}/>...My work is entirely responsive and is inspired by seamless navigation, cinematography 
+                        and clean user-friendly UI.<Typing.Delay ms={1000}/></Typing> 
                     </p>
                 </div>
                 </div>
