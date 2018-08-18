@@ -81,6 +81,7 @@ class Nav extends Component {
             >
               Contact
             </div>
+            <div className="nav-item hvr-grow"><a className="resumenav" href="https://drive.google.com/open?id=1LNzh8h1SyKKTKrTxxa7JdZZbC735E-43" target="_blank">Resume</a></div>
           </div>
         </div>
         </div>

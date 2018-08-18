@@ -17,7 +17,7 @@ class Portfolio extends React.Component {
           <div className="p-bg"> 
          
               <div className="p-text-container">
-                <h1 className="p-text size">Portfolio<a className=" resumelink" href="https://drive.google.com/open?id=1LNzh8h1SyKKTKrTxxa7JdZZbC735E-43" target="_blank"> (Download Resume)</a></h1>
+                <h1 className="p-text size">Portfolio</h1>
                 <div className="cards">
 
                   <Row> 
