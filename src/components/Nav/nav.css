@@ -54,6 +54,11 @@
     
 }
 
+.resumenav:hover {
+    color: red;
+    
+}
+
 
 @media (min-width: 0px) and (max-width: 725px ) {
     .navbox {
