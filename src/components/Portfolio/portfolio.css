@@ -41,6 +41,17 @@
   width: 100%;
 }
 
+.resumelink {
+  
+  font-size: 70%;
+  color:red;
+}
+
+.resumelink:hover {
+  color: red;
+  
+}
+
 .Card {
   height: 100%;
   width: 100%;
@@ -132,6 +143,7 @@ font-family: 'Poiret One', cursive;
 }
 
 .size {
+
 font-size: 3rem;
 }
 
