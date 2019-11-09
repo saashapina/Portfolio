@@ -5,7 +5,7 @@
   "homepage": "https://saashacodes.com/",
   "dependencies": {
     "aos": "^2.3.0",
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "carousel": "^0.0.3",
     "nuka": "^1.0.0",
     "prop-types": "^15.6.1",
