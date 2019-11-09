@@ -83,7 +83,7 @@ class Nav extends Component {
             <div className="nav-item hvr-grow">
               <a
                 className="resumenav"
-                href="https://drive.google.com/file/d/13sboAr76RxZ7-ppTkdcQdpJzp8exuPAP/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_kpeDhcUylmxcjt_C41WtcNZSoSauqzx/view?usp=sharing"
                 rel="noopener noreferrer"
                 target="_blank"
               >
