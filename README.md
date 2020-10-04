@@ -1,3 +1,3 @@
-This is my React Portfolio. 
+Portfolio
 
-saashapina.com
+saasha.dev
